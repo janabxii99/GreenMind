@@ -2,7 +2,7 @@
 //  GreenMindApp.swift
 //  GreenMind
 //
-//  Created by JJ Sudusinghe on 2026-10-23.
+//  Created by JJ Sudusinghe on 2026-10-24.
 //
 
 import SwiftUI
@@ -12,7 +12,7 @@ import SwiftData
 struct GreenMindApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Plant.self,
+            Item.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
